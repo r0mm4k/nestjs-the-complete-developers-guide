@@ -5,7 +5,7 @@ export class MessagesController {
   @Get()
   findAll() {}
 
-  @Get('/id')
+  @Get(':id')
   findOne() {}
 
   @Post()
