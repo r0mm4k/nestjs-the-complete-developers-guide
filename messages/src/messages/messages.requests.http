@@ -1,0 +1,14 @@
+### Find All Messages
+GET http://{{host}}:{{port}}/messages
+
+### Find One Message
+GET http://{{host}}:{{port}}/messages/1
+
+### Create Message
+POST http://{{host}}:{{port}}/messages
+Content-Type: application/json
+
+{
+  "content": "Hi there"
+}
+
