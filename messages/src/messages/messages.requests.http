@@ -2,7 +2,7 @@
 GET http://{{host}}:{{port}}/messages
 
 ### Find One Message
-GET http://{{host}}:{{port}}/messages/1
+GET http://{{host}}:{{port}}/messages/617
 
 ### Create Message
 POST http://{{host}}:{{port}}/messages
