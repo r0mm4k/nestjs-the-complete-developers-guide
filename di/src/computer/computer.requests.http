@@ -1,0 +1,2 @@
+### Run computer
+GET http://{{host}}:{{port}}/computer
