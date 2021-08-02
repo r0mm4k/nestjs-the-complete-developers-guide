@@ -16,3 +16,10 @@ GET http://{{host}}:{{port}}/auth?email=test@test.com
 ### Delete a user given id
 DELETE http://{{host}}:{{port}}/auth/2
 
+### Update a user
+PATCH http://{{host}}:{{port}}/auth/2
+Content-Type: application/json
+
+{
+  "email": "test@test.com"
+}
