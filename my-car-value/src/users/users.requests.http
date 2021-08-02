@@ -6,3 +6,10 @@ Content-Type: application/json
   "email": "test@test.com",
   "password": "test"
 }
+
+### Find a particular user with a given ID
+GET http://{{host}}:{{port}}/auth/1
+
+### Find all users with a given email
+GET http://{{host}}:{{port}}/auth?email=test@test.com
+
