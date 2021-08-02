@@ -8,8 +8,11 @@ Content-Type: application/json
 }
 
 ### Find a particular user with a given ID
-GET http://{{host}}:{{port}}/auth/1
+GET http://{{host}}:{{port}}/auth/2
 
 ### Find all users with a given email
 GET http://{{host}}:{{port}}/auth?email=test@test.com
+
+### Delete a user given id
+DELETE http://{{host}}:{{port}}/auth/2
 
