@@ -24,9 +24,8 @@ export class AuthService {
     // Join the hashed result and the salt together
     const result = salt + '.' + hash.toString('hex');
 
-    // Create a new user and save it
-
-    // Return the user
+    // Create, save and return a new user
+    return this.usersService.create(email, result);
   }
 
   signin() {}
