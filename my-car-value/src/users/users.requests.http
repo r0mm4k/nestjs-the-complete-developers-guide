@@ -1,5 +1,14 @@
-### Create a new user
+### Sigup user
 POST http://{{host}}:{{port}}/auth/signup
+Content-Type: application/json
+
+{
+  "email": "test@test.com",
+  "password": "test"
+}
+
+### Signin user
+POST http://{{host}}:{{port}}/auth/signin
 Content-Type: application/json
 
 {
